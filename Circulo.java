@@ -7,7 +7,7 @@ public class Circulo implements FiguraGeometrica
 {
     private double radio;
     private double areaRadio;
-    static final double pi = 3.1415;
+    static final double pi = 3.1416; //se cambia el valor de PI de 3.1415 a 3.1416
 
     public Circulo(double radio)
     {
