@@ -13,7 +13,11 @@ public class Geometria
         cuadrado.area();
         System.out.println("Área del cuadrado de lado 10: " + 
                 cuadrado.getareaCuadrado());
-        
+
+        Circulo circulo = new Circulo(200);
+        circulo.area();
+        System.out.println("Área del círculo de radio 200: " +
+                circulo.getAreaRadio());
 
         Rectangulo rectangulo = new Rectangulo(100, 20);
         rectangulo.area();
